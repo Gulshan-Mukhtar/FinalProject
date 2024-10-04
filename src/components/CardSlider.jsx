@@ -15,19 +15,19 @@ const SlickSlider = () => {
     // Reduxdan stateni aliriq
     const data = useSelector(state => state);
 
-    const goToNextSlide = () => {
-        if (sliderRef.current && currentSlide < data.length - 1) {
-            setCurrentSlide(currentSlide + 1);
-            sliderRef.current.slickNext();
-        }
-    };
+    // const goToNextSlide = () => {
+    //     if (sliderRef.current && currentSlide < data.length - 1) {
+    //         setCurrentSlide(currentSlide + 1);
+    //         sliderRef.current.slickNext();
+    //     }
+    // };
 
-    const goToPrevSlide = () => {
-        if (sliderRef.current && currentSlide > 0) {
-            setCurrentSlide(currentSlide - 1);
-            sliderRef.current.slickPrev();
-        }
-    };
+    // const goToPrevSlide = () => {
+    //     if (sliderRef.current && currentSlide > 0) {
+    //         setCurrentSlide(currentSlide - 1);
+    //         sliderRef.current.slickPrev();
+    //     }
+    // };
 
     const settings = {
         dots: false,

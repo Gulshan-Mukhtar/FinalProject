@@ -16,19 +16,19 @@ const TopPics = () => {
 
     const displayedProducts = data.slice(0, 8);
 
-    const goToNextSlide = () => {
-        if (sliderRef.current && currentSlide < displayedProducts.length - 1) {
-            setCurrentSlide(currentSlide + 1);
-            sliderRef.current.slickNext();
-        }
-    };
+    // const goToNextSlide = () => {
+    //     if (sliderRef.current && currentSlide < displayedProducts.length - 1) {
+    //         setCurrentSlide(currentSlide + 1);
+    //         sliderRef.current.slickNext();
+    //     }
+    // };
 
-    const goToPrevSlide = () => {
-        if (sliderRef.current && currentSlide > 0) {
-            setCurrentSlide(currentSlide - 1);
-            sliderRef.current.slickPrev();
-        }
-    };
+    // const goToPrevSlide = () => {
+    //     if (sliderRef.current && currentSlide > 0) {
+    //         setCurrentSlide(currentSlide - 1);
+    //         sliderRef.current.slickPrev();
+    //     }
+    // };
 
     const settings = {
         dots: false,
