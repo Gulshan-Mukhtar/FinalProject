@@ -9,12 +9,12 @@ const Slider = () => {
 
     const nextSlide = useCallback(() => {
         setCurrentSlide((currentSlide + 1) % sliderData.length);
-    }, [currentSlide]); // currentSlide bağımlılığı eklendi
+    }, [currentSlide]); 
 
     const previousSlide = useCallback(() => {
         const newIndex = currentSlide - 1 < 0 ? sliderData.length - 1 : currentSlide - 1;
         setCurrentSlide(newIndex);
-    }, [currentSlide]); // currentSlide bağımlılığı eklendi
+    }, [currentSlide]);
 
     useEffect(() => {
         const intervalId = setInterval(nextSlide, 2000);
