@@ -1,0 +1,145 @@
+.movie-box {
+    height: auto;
+    color: #fff;
+    font-family: "Crimson Text", serif;
+    padding: 50px;
+
+    .poster-box {
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        border-radius: 10px; 
+        overflow: hidden; 
+    }
+    
+    .poster-box:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 20px rgba(191, 149, 63, 0.7), 0 0 30px rgba(191, 149, 63, 0.6), 0 0 40px rgba(191, 149, 63, 0.5); 
+    }
+    
+    .poster-box-1 {
+        background-image: url("https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/4b990c5d-38ab-4daf-8092-2617cbc6d062/9877d6cc-d4df-11ee-8bac-0aa567ef077d?host=wbd-images.prod-vod.h264.io&partner=beamcom");
+        margin-bottom: 10px;
+    }
+    
+    .poster-box-2 {
+        background-image: url("https://sumo.cdn.tv2.no/imageapi/v3/img/62135398498ed8267181ced2-1713940739024");
+        margin-bottom: 10px;
+    }
+    
+    .poster-box-3 {
+        background-image: url("https://ntvb.tmsimg.com/assets/p34483_v_h8_aw.jpg?w=1280&h=720");
+        margin-bottom: 10px;
+    }
+    
+    .poster-box-4 {
+        background-image: url("https://i.ytimg.com/vi/myYjIfi9XJE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCjFPnaPWZRBi-NDXiyzZJ2sSMWdQ");
+        margin-bottom: 10px;
+    }
+    
+    .poster-box-5 {
+        background-image: url("https://i.ytimg.com/vi/n9-GMJeipxo/maxresdefault.jpg");
+        margin-bottom: 10px;
+    }
+    
+    .poster-box-6 {
+        background-image: url("https://bookstr.com/wp-content/uploads/2022/07/tileburnedin.jpg");
+        margin-bottom: 10px;
+    }
+    
+    .poster-box-7 {
+        background-image: url("https://material.asset.catchplay.com/WAR-IN-001-A0042/artworks/posters/WAR-IN-001-A0042-P1200.jpg");
+        margin-bottom: 10px;
+    }
+    
+    .poster-box-8 {
+        background-image: url("https://m.media-amazon.com/images/S/pv-target-images/1a3e948ad6a732bf674f8cd8821b95c67c18eceb5c539e1b54f2a6096fb2847b.jpg");
+        margin-bottom: 10px;
+    }
+    
+    .movie-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        min-height: 100px; 
+        height: auto;
+    }
+    
+    .arrow-box, .arrow-box-2 {
+        height: 80px; 
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    h4.text-center {
+        font-size: 30px !important;
+    }
+    
+    @media (min-width: 1200px) {
+        .movie-content {
+            flex-direction: row;
+            min-height: 100px; 
+        }
+        .arrow-box, .arrow-box-2 {
+            height: 120px; 
+        }
+    }
+    
+    @media (max-width: 1199px) and (min-width: 768px) {
+        .movie-content {
+            flex-direction: row; 
+        }
+        .arrow-box, .arrow-box-2 {
+            height: 100px; 
+        }
+        h4.text-center {
+            font-size: 1.2rem;
+        }
+    }
+    
+    @media (max-width: 767px) {
+        .movie-content {
+            flex-direction: column;
+            text-align: center;
+            min-height: 100px; 
+        }
+        .arrow-box, .arrow-box-2 {
+            height: 80px; 
+            margin-bottom: 20px;
+        }
+        h4.text-center {
+            font-size: 1rem;
+        }
+    }
+    
+    @media (max-width: 575px) {
+        .movie-content {
+            flex-direction: column;
+            text-align: center;
+            min-height: 100px;
+        }
+        .arrow-box, .arrow-box-2 {
+            height: 60px;
+            margin-bottom: 15px;
+        }
+        h4.text-center {
+            font-size: 0.9rem;
+        }
+    }
+    
+
+}
+
+
+
+
+
+
+

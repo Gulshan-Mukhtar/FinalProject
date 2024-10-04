@@ -1,0 +1,109 @@
+.shopNow {
+    height: 60vh;
+    width: 100%;
+    background-image: url('../../../img/shopNow.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    position: relative;
+
+    a{
+        text-decoration: none;
+    }
+}
+
+.transparent-brown-div {
+    background-color: rgba(74, 43, 16, 0.8);
+    width: 35%;
+    max-width: 600px; 
+    padding: 30px;
+    color: #fff;
+    text-align: center; 
+}
+
+.transparent-brown-div h1 {
+    font-family: "Crimson Text", serif;
+    font-size: 3rem; 
+    margin-bottom: 20px;
+}
+
+.transparent-brown-div p {
+    font-family: "Crimson Text", serif;
+    font-size: 1.5rem; 
+    margin-bottom: 30px;
+}
+
+.gold-button {
+    font-family: "Crimson Text", serif;
+    width: 140px;
+    height: 40px;
+    border: 1 px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right,
+    #77530a,
+    #bb9341,
+    #77530a,
+    #77530a,
+    #bb9341,
+    #77530a);
+    background-size: 250%;
+    background-position: left;
+    color: #ffffff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition-duration: 1s;
+    overflow: hidden;
+    transform: scale(1);
+
+    &:hover {
+        background-position: right;
+        transition-duration: 1s;
+    }
+
+    &::before {
+        position: absolute;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+        transition-duration: 1s;
+        background-color: rgba(0, 0, 0, 0.842);
+    }
+
+   
+}
+
+
+@media (max-width:1200px ){
+    .transparent-brown-div {
+        width: 90%; 
+        height: 400px;
+        overflow: hidden;
+        margin: auto;
+    }
+
+    .transparent-brown-div h1 {
+        font-size: 2.5rem; 
+
+    .transparent-brown-div p {
+        font-size: 1.25rem; 
+    }
+
+    .gold-button {
+        width: 120px;
+        height: 35px;
+        font-size: 0.9rem;
+    }
+}
+
+}
+

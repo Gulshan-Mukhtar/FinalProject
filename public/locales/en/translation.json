@@ -1,0 +1,236 @@
+{
+    "Navbar": {
+        "0": "About",
+        "1": "Shop",
+        "2": "FAQs"
+    },
+    "Slider": {
+        "slide1": {
+            "0": "Harry Potter",
+            "1": "Their bond, forged through shared adventures and trials at Hogwarts, was unbreakable, a beacon of hope in the darkest of times. Through laughter, tears, and moments of sheer bravery, they exemplified the true meaning of friendship, inspiring readers worldwide with their unwavering loyalty and unwavering friendship."
+        },
+        "slide2": {
+            "0": "The Boy Who Lived",
+            "1": "The tragedies Harry experienced helped him discover his inner strength. His greatest strength lay in his friendships, particularly with Ron and Hermione, who stood by him in his toughest times. Together, they demonstrated how valuable solidarity and friendship were through every moment spent in the corridors of Hogwarts."
+        },
+        "slide3": {
+            "0": "Hermione Granger",
+            "1": "Hermione's value extends beyond her intelligence; she possesses immense courage as well. She is always ready to fight for her friends and never hesitates to stand up against injustice. She serves as a pillar of strength and support for Harry and Ron, never giving up even in the toughest of times, always striving to do what is right."
+        },
+        "slide4": {
+            "0": "Ron Weasley",
+            "1": "Ron's character teaches us that true strength lies not only in magical prowess but also in the bonds we forge with others. His loyalty to Harry and Hermione, and his willingness to sacrifice for them, exemplify the true meaning of friendship."
+        }
+    },
+    "ProductsBox": {
+        "product1": {
+            "0": "Wands"
+        },
+        "product2": {
+            "0": "Waist Bag"
+        },
+        "product3": {
+            "0": "Clothing "
+        },
+        "product4": {
+            "0": "Sweets"
+        }
+    },
+    "ShopNow": {
+        "0": "Create Your Own Trunk",
+        "1": "Beautifully presented for the perfect gift, you can now create your very own Hogwarts school trunk, and fill it to the brim with one-of-a-kind Harry Potter merchandise, handpicked by you.",
+        "2": "Shop Now"
+    },
+    "CardSlider": {
+        "0": "Shop Now",
+        "1": "No Product"
+    },
+    "SingleCard": {
+        "0": "Price",
+        "1": "Product added to basket",
+        "2": "Please login to add products to the basket",
+        "3": "Product removed to wishlist",
+        "4": "Product added to wishlist"
+    },
+    "Personalized": {
+        "0": "Hogwarts School of Witchcraft and Wizardry ",
+        "1": "is a magical school in Scotland. It was founded by four famous witches and wizards and has four houses: Gryffindor, Hufflepuff, Ravenclaw, and Slytherin. Students are sorted into these houses and learn magic in a castle filled with mysteries and enchantments."
+    },
+    "HarryPotter": {
+        "0": "Movies"
+    },
+    "Footer": {
+        "0": "Contact Us",
+        "1": "Phone",
+        "2": "Fax",
+        "3": "Customer Service",
+        "4": "FAQs",
+        "5": "Privacy Policy",
+        "6": "Children's Privacy Policy",
+        "7": "Legal notices",
+        "8": "Social",
+        "9": "Sign up for news, events & offers",
+        "10": "SIGN UP NOW"
+    },
+    "About": {
+        "0": "About",
+        "1": "The Harry Potter Shop is the official online shop for all your wizarding needs, housing ranges from Warner Bros. Studio Tour London, the Harry Potter shop at Platform 9 ¾ and Harry Potter New York providing a spellbinding shopping experience. ",
+        "2": "Discover everything from fan-favourites and brand collaborations to exclusive designs and one-of-a-kind personalisation in the largest collection of Harry Potter and Fantastic Beasts products in the world. With over 1000 items, every fan will find something magical to add to their collection.",
+        "3": "Stay up to date on all the latest Harry Potter Shop news as well as new and exclusive product launches by signing up to our newsletter!"
+    },
+    "AllProducts": {
+        "0": "All Products",
+        "1": "No Product"
+    },
+    "Account": {
+        "0": "Account",
+        "1": "Fullname",
+        "2": "Phone number",
+        "3": "Log Out"
+    },
+    "Login": {
+        "0": "Please enter both email and password",
+        "1": "Invalid email or password",
+        "2": "Email address",
+        "3": "Password",
+        "4": "Don't have an account?",
+        "5": "Sign Up",
+        "6": "Login"
+    },
+    "Register": {
+        "0": "Please fill in all fields",
+        "1": "Email already registered",
+        "2": "Registration successful",
+        "3": "Passwords do not match",
+        "4": "Register",
+        "5": "Fullname",
+        "6": "Phone number",
+        "7": "Email address",
+        "8": "Password",
+        "9": "Confirm Password",
+        "10": "Sign Up",
+        "11": "Already have an account?"
+    },
+    "Basket": {
+        "0": "Please login to complete the purchase",
+        "1": "Basket",
+        "2": "Photo",
+        "3": "Title",
+        "4": "Price",
+        "5": "Quantity",
+        "6": "Delete",
+        "7": "Total price",
+        "8": "Buy Now",
+        "9": "All clear",
+        "10": "Product was deleted"
+    },
+    "Wishlist": {
+        "0": "Product removed from wishlist",
+        "1": "Product added to cart",
+        "2": "Wishlist"
+    },
+    "Search": {
+        "0": "Search Products",
+        "1": "Enter product",
+        "2": "No products found"
+    },
+    "ProductForm": {
+        "0": "Please fill in all fields",
+        "1": "Photo Link",
+        "2": "Title",
+        "3": "Price",
+        "4": "Submit"
+    },
+    "TopPics": {
+        "0": "Top Pics",
+        "1": "No Product"
+    },
+    "AddProduct": {
+        "0": "Add Product",
+        "1": "Product added successful"
+    },
+    "Dashboard": {
+        "0": "Dashboard",
+        "1": "Add",
+        "2": "Photo",
+        "3": "Title",
+        "4": "Price",
+        "5": "Edit",
+        "6": "Delete",
+        "7": "Product was deleted!"
+    },
+    "EditProduct": {
+        "0": "Edit Product",
+        "1": "Product edited successfully",
+        "2": "Loading...",
+        "3":"Edit"
+    },
+    "CheckOut": {
+        "0": "Please fill in all payment details",
+        "1": "Payment",
+        "2": "Card Number",
+        "3": "Name on card",
+        "4": "Expiry date",
+        "5": "CVV Code",
+        "6": "PayPal",
+        "7": "Email address",
+        "8": "The Payment"
+    },
+    "Details": {
+        "0:": "Product added to cart",
+        "1": "Product removed to wishlist",
+        "2": "Product added to wishlist",
+        "3": "Loading...",
+        "4": "Back",
+        "5": "Price",
+        "7":"Product added to cart"
+    },
+    "SuccessPayment": {
+        "0": "Payment Success",
+        "1": "Congratulations! Your payment was successful.",
+        "2": "Continue Shopping"
+    },
+    "faqs": {
+        "1": {
+            "title": "FAQs"
+        },
+        "2": {
+            "title": "UK Shipping and Delivery",
+            "message": "We currently offer Standard Tracked, and Express shipping for delivery within the UK. Shipping costs are shown at the checkout prior to completing your order. FREE Standard Tracked Delivery - orders above £60 are eligible for free shipping in the UK- Standard Tracked Delivery £3.95 – orders should arrive within 4-5 working days from the date of dispatch- Express Delivery £4.95 - orders should arrive within 2-3 working days from the date of dispatch. All orders are sent using Royal Mail and you will receive an email confirmation once your order has been dispatched. This will also contain a tracking number so that you can track the status of your order.Please be aware that we may need to contact you to confirm your identity and information relating to your order before it is processed and dispatched. Please ensure that your contact email address is correct at the time of ordering."
+        },
+        "3": {
+            "title": "Non-UK Shipping and Delivery",
+            "message": "We use a large network of global delivery partners and a range of options to ensure you receive your order when expected. Delivery partners are allocated based on the selected delivery method and shipping destination. Once you have placed your order, you will receive an email confirmation. You will also receive an email once your order has been dispatched. This will also contain a tracking number so that you can track the status of your order."
+        },
+        "4": {
+            "title": "Orders",
+            "message": "WHERE IS MY ORDER? please allow 2-3 working days after completing your purchase for your order to be dispatched. Orders containing personalised items may require additional processing time. Once dispatched, you will receive an email containing tracking information to follow delivery progress of your order. Please allow until the estimated delivery date for your order to be delivered. CAN I CANCEL MY ORDER? if you would like to cancel your order and it has not yet been processed, please contact our Customer Services team using the Contact Form. Once processed, orders cannot be adjusted. You will receive an email to confirm once your order has been cancelled. Please note, we are unable to cancel or amend individual items on an order."
+        },
+        "5": {
+            "title": "Refunds and Exchanges",
+            "message": "WHAT IS YOUR REFUND POLICY? We want you to be happy with your purchase. If for any reason you are not, you have 30 days from receipt of goods to return it for a full refund. Your refund will be issued using your original payment method. We aim to process refunds and exchanges within 5 working days on receipt of your package, however this may vary during our busy periods. Please ensure you obtain proof of postage from your post provider and retain it until after you are refunded. You will receive an email once your refund or exchange has been processed. Once processed, it can take up to 10 working days for the money to return to your account.Products that are being returned must be in their original condition and packaging where possible. Some products are not eligible for a return - more information can be found further down this page. Exchanges can only be processed for items of the same monetary value."
+        },
+        "6": {
+            "title": "Promo Codes and Vouchers",
+            "message": "DO YOU SELL GIFT CARDS? We do not currently sell gift cards, however this is something we are working on for the future. MY WIZARDING WORLD BIRTHDAY DISCOUNT CODE ISN’T WORKING If your Wizarding World Birthday Discount is not applying at the checkout, please check the following information: Your basket total meets the minimum required spend where applicable- You are logged into the correct Wizarding World account that your discount email was sent to -You have a valid address assigned to your account on our website."
+        },
+        "7": {
+            "title": "Products",
+            "message": "WHERE CAN I FIND YOUR SIZE GUIDE AND CARE INSTRUCTIONS?\nSize guides are available on most of our product pages; click on the last image within the product photos on each product page to see the size guide. We would also suggest reading the care label and washing instructions before washing any clothes.Please note, due to personal preference, we are unable to recommend the most suitable clothing sizes.DO YOU OFFER WHOLESALE PURCHASES TO OTHER RETAILERS OR TRADERS? Our merchandise is offered directly to the public and we encourage all customers to purchase from our online shop to ensure they are buying authentic merchandise. We do not supply on a wholesale basis. We reserve the right to cancel orders at any time."
+        },
+        "8": {
+            "title": "Create Your Own Trunk",
+            "message": "HOW DOES CREATE YOUR OWN TRUNK WORK? To create your personalised gift trunk, you can select ‘Create Your Own Trunk’ and start building your trunk. Personalise your trunk with your initials and add in any items of choice through the Create Your Own Trunk pages. HOW DOES THE CREATE YOUR OWN TRUNK DISCOUNT WORK? UK Customers: You will receive a discount on your personalised trunk subtotal; Spend £100 and receive 10% off your trunk order. Spend £150 and receive 15% off your trunk order. Spend £200 and receive 20% off your trunk order Non-UK Customer. Your discount thresholds for Create Your Own Trunk will be shown in your local currency."
+        }
+    },
+    "MyAccount": {
+    "0": "Please enter your email and password.",
+    "1": "Incorrect email or password.",
+    "2": "Admin",
+    "3": "Admin account",
+    "4": "Email",
+    "5": "Password",
+    "6": "Login"
+}
+
+}

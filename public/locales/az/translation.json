@@ -1,0 +1,238 @@
+{
+    "Navbar": {
+        "0": "Haqqımızda",
+        "1": "Satış",
+        "2": "FAQs"
+    },
+    "Slider": {
+        "slide1": {
+            "0": "Harri Potter",
+            "1": "Onların dosqluğu, Hogwartsdakı macəralar və çətinliklərlə formalaşmış, qaranlıq zamanlarda ümid işığı olmuşdu. Sevinc, gözyaşı və cəsarətləri ilə onlar dostluğun əsl mənasını nümayiş etdirdilər, dünya miqyasında oxucuları sadiqlikləri və dostluqları ilə ilhamlandırdılar."
+        },
+        "slide2": {
+            "0": "Sağ qalan oğlan",
+            "1": "Harrinin yaşadığı faciələr ona daxili gücünü kəşf etməyə kömək etdi. Onun ən böyük gücü dostluqları, xüsusilə Ron və Hermiona ilə, çətin zamanlarında yanında olduqları üçün idi. Birlikdə, Hogwartsın dəhlizlərində keçirdikləri hər anla həmrəylik və dostluğun nə qədər dəyərli olduğunu nümayiş etdirdilər."
+        },
+        "slide3": {
+            "0": "Hermiona Granger",
+            "1": "Hermionanın gücü yalnız intellektində deyil; o, həm də böyük cəsarətə malikdir. O, hər zaman dostları üçün mübarizə aparmağa hazırdır və ədalətsizliyə qarşı durmaqdan çəkinmir. O, Harri və Ron üçün güc və dəstək sütunu olaraq xidmət edir, ən çətin zamanlarda belə vaz keçmir və həmişə düzgün olanı etməyə çalışır."
+        },
+        "slide4": {
+            "0": "Ron Vizliy",
+            "1": "Ronun xarakteri bizə əsl gücün yalnız sehrli bacarıqlarda deyil, həm də başqaları ilə qurduğumuz dostluq olduğunu öyrədir. Onun Harri və Hermionaya olan sədaqəti və onlar üçün hər şeyi qurban verməyə hazır olması dostluğun əsl mənasını nümayiş etdirir."
+        }
+    },
+    "ProductsBox": {
+        "product1": {
+            "0": "Sehirli çubuq"
+        },
+        "product2": {
+            "0": "Bel Çantası "
+        },
+        "product3": {
+            "0": "Geyim "
+        },
+        "product4": {
+            "0": "Şirniyyat "
+        }
+    },
+    "ShopNow": {
+        "0": "Öz Səbətinizi Yaradın",
+        "1": "Mükəmməl hədiyyə üçün gözəl təqdimatla, indi öz Hogwarts məktəb səbətinizi yarada bilər və onu siz tərəfindən seçilmiş unikal Harri Potter əşyaları ilə doldura bilərsiniz.",
+        "2": "İndi Al"
+    },
+    "CardSlider": {
+        "0": "İndi Al",
+        "1": "Məhsul Yoxdur"
+    },
+    "SingleCard": {
+        "0": "Qiymət",
+        "1": "Məhsul səbətə əlavə edildi",
+        "2": "Məhsulları səbətə əlavə etmək üçün xahiş edirəm daxil olun",
+        "3": "Məhsul arzular siyahısından silindi",
+        "4": "Məhsul arzular siyahısına əlavə edildi"
+    },
+    "Personalized": {
+        "0": "Hogwarts Cadugərlik və Sehrbazlıq Məktəbi",
+        "1": "Şotlandiyada yerləşən sehrli bir məktəbdir. Dörd məşhur sehrbaz və cadugər tərəfindən təsis olunmuşdur və dörd evdən ibarətdir: Gryffindor, Hufflepuff, Ravenclaw və Slytherin. Tələbələr bu evlərə ayrılır və sirrlərlə dolu bir qalada sehr öyrənirlər."
+    },
+    "HarryPotter": {
+        "0": "Filmlər"
+    },
+    "Footer": {
+        "0": "Bizimlə əlaqə",
+        "1": "Telefon",
+        "2": "Faks",
+        "3": "Müştəri Xidmətləri",
+        "4": "FAQs",
+        "5": "Gizlilik Siyasəti",
+        "6": "Uşaq Gizliliyi Siyasəti",
+        "7": "Hüquqi bildirişlər",
+        "8": "Sosial",
+        "9": "Xəbərlər, tədbirlər və təkliflər üçün qeydiyyatdan keçin",
+        "10": "Qeydiyyat "
+    },
+    "About": {
+        "0": "Haqqımızda",
+        "1": "Harry Potter mağazası, Warner Bros. Studio Tour London, Platform 9 ¾'deki Harry Potter mağazası və Harry Potter New York-dan ibarət olan bütün cadugər ehtiyaclarınız üçün rəsmi onlayn mağazadır.",
+        "2": "Dünyanın ən böyük Harry Potter və Fantastic Beasts məhsulları kolleksiyasında fanatların sevimlilərindən, marka əməkdaşlıqlarından eksklüziv dizaynlar və bir-birinə bənzərsiz fərdiləşdirmələrə qədər hər şeyi kəşf edin. 1000-dən çox məhsul ilə hər fanat kolleksiyasına əlavə etmək üçün sehrli bir şey tapacaq.",
+        "3": "Ən son Harry Potter m xəbərləri ilə yanaşı yeni və eksklüziv məhsul buraxılışlarından xəbərdar olmaq üçün saytımıza abunə olun!"
+    },
+    "AllProducts": {
+        "0": "Bütün Məhsullar",
+        "1": "Məhsul Yoxdur"
+    },
+    "Account": {
+        "0": "Hesab",
+        "1": "Tam Ad",
+        "2": "Telefon Nömrəsi",
+        "3": "Çıxış Et"
+    },
+    "Login": {
+        "0": "Zəhmət olmasa, həm e-mail, həm də şifrəni daxil edin",
+        "1": "Yanlış e-mail və ya şifrə",
+        "2": "E-mail ",
+        "3": "Şifrə",
+        "4": "Hesabınız yoxdur?",
+        "5": "Qeydiyyat",
+        "6": "Giriş"
+    },
+    "Register": {
+        "0": "Zəhmət olmasa, bütün sahələri doldurun",
+        "1": "E-mail artıq qeydiyyatdan keçmişdir",
+        "2": "Uğurlu qeydiyyat",
+        "3": "Şifrələr uyğun gəlmir",
+        "4": "Qeydiyyatdan keçin",
+        "5": "Tam Ad",
+        "6": "Telefon Nömrəsi",
+        "7": "E-mail ünvanı",
+        "8": "Şifrə",
+        "9": "Şifrəni Təsdiqləyin",
+        "10": "Qeydiyyat ",
+        "11": "Hesabınız varmı?"
+    },
+    "Basket": {
+        "0": "Zəhmət olmasa, alış-verişi tamamlamaq üçün daxil olun",
+        "1": "Səbət",
+        "2": "Şəkil",
+        "3": "Başlıq",
+        "4": "Qiymət",
+        "5": "Miqdar",
+        "6": "Sil",
+        "7": "Cəm qiymət",
+        "8": "İndi Al",
+        "9": "Təmizlə",
+        "10": "Məhsul silindi"
+    },
+    "Wishlist": {
+        "0": "Məhsul istəklər qutusundan çıxarıldı",
+        "1": "Məhsul səbətə əlavə edildi",
+        "2": "İstəklər qutusu"
+    },
+    "Search": {
+        "0": "Məhsulları Axtar",
+        "1": "Məhsulu daxil edin",
+        "2": "Məhsul tapılmadı"
+    },
+    "ProductForm": {
+        "0": "Zəhmət olmasa, bütün sahələri doldurun",
+        "1": "Şəklin linki",
+        "2": "Başlıq",
+        "3": "Qiymət",
+        "4": "Təsdiq et"
+    },
+    "TopPics": {
+        "0": "Seçilənlər",
+        "1": "Məhsul Yoxdur"
+    },
+    "AddProduct": {
+        "0": "Məhsul əlavə et",
+        "1": "Məhsul uğurla əlavə edildi"
+    },
+    "Dashboard": {
+        "0": "İdarə Paneli",
+        "1": "Əlavə et",
+        "2": "Şəkil",
+        "3": "Başlıq",
+        "4": "Qiymət",
+        "5": "Düzəlt",
+        "6": "Sil",
+        "7": "Məhsul silindi!"
+    },
+    "EditProduct": {
+        "0": "Məhsulu tənzimlə",
+        "1": "Məhsul uğurla düzəldildi",
+        "2": "Yüklənir...",
+        "3": "Tənzimləmə"
+
+    },
+    "CheckOut": {
+        "0": "Zəhmət olmasa, bütün  məlumatlarını doldurun",
+        "1": "Ödəniş",
+        "2": "Kart Nömrəsi",
+        "3": "Kartdakı Ad",
+        "4": "Son İstifadə Tarixi",
+        "5": "CVV Kodu",
+        "6": "PayPal",
+        "7": "E-poçt ünvanı",
+        "8": "Ödəniş et"
+    },
+    "Details": {
+        "0": "Məhsul səbətə əlavə edildi",
+        "1": "Məhsul istək qutusundan silindi",
+        "2": "Məhsul istək qutusuna əlavə edildi",
+        "3": "Yüklənir...",
+        "4": "Geri",
+        "5": "Qiymət",
+        "7": "Məhsul səbətə əlavə edildi"
+
+    },
+    "SuccessPayment": {
+        "0": "Ödəniş Uğurlu",
+        "1": "Təbriklər! Ödənişiniz uğurla həyata keçirildi.",
+        "2": "Alış-verişə Davam Et"
+    },
+    
+    "faqs": {
+        "1": {
+            "title": "Tez-tez verilən suallar"
+        },
+        "2": {
+            "title": "Böyük Britaniya Göndərişi və Çatdırılması",
+            "message": "Hal-hazırda standart İzləmə və sürətli İngiltərə çatdırılmasını təklif edirik. Çatdırılma dəyəri sifariş tamamlanana qədər ödəmə zamanı göstərilir. Pulsuz standart izlənilə bilən çatdırılma - 60 funt sterlinqdən yuxarı sifarişlər İngiltərədə pulsuz çatdırılma hüququna malikdir – standart izlənilə bilən çatdırılma 3,95 funt sterlinqdir - sifarişlər göndərildiyi gündən 4-5 iş günü ərzində çatdırılmalıdır-ekspress çatdırılma 4,95 funt sterlinqdir - sifarişlər göndərildiyi gündən 2-3 iş günü ərzində çatdırılmalıdır. Bütün sifarişlər Royal Mail ilə göndərilir və sifarişiniz göndərildikdən sonra Təsdiq e-poçtu alacaqsınız. Sifarişinizin vəziyyətini izləyə bilmək üçün izləmə nömrəsi də burada veriləcəkdir.Xahiş edirəm unutmayın ki, işlənmədən və göndərilmədən əvvəl şəxsiyyətinizi və sifarişinizlə əlaqəli məlumatları təsdiqləmək üçün sizinlə əlaqə saxlamağımız lazım ola bilər. Zəhmət olmasa əlaqə e-poçt adresinizin ödəmə zamanı düzgün göstərildiyinə əmin olun."
+        },
+        "3": {
+            "title": "Böyük Britaniya Xarici Göndəriş və Çatdırılması",
+            "message": "Sifarişinizin vaxtında alınmasını təmin etmək üçün dünya miqyasında geniş çatdırılma tərəfdaşları şəbəkəsindən və geniş imkanlardan istifadə edirik. Çatdırılma tərəfdaşları seçilmiş çatdırılma üsuluna və təyinat yerinə əsasən təyin edilir. Sifarişinizi verdikdən sonra Təsdiq e-poçtu alacaqsınız. Sifarişiniz göndərildikdən sonra siz də e-poçt alacaqsınız. Sifarişinizin vəziyyətini izləyə bilmək üçün izləmə nömrəsini də sadalayacaq."
+        },
+        "4": {
+            "title": "Sifarişlər",
+            "message": "SİFARİŞİM HARADADIR? sifarişiniz göndərilənə qədər satınalma başa çatdıqdan sonra 2-3 iş günü gözləyin. Kişiselleştirilmiş məhsullar olan sifarişlərin işlənməsi üçün əlavə vaxt tələb oluna bilər. Göndərdikdən sonra sifarişinizin çatdırılma gedişatını izləmək üçün məlumat olan bir e-poçt alacaqsınız. Zəhmət olmasa sifarişinizin təxmini çatdırılma tarixini gözləyin. Sifarişimi ləğv edə bilərəmmi? sifarişinizi ləğv etmək istəyirsinizsə, lakin hələ işlənməyibsə, əlaqə formasından istifadə edərək müştəri xidmətimizlə əlaqə saxlayın. Emaldan sonra sifarişlər düzəldilə bilməz. Sifarişiniz ləğv edildikdən sonra Təsdiq e-poçtu alacaqsınız. Xahiş edirik fərdi sifariş maddələrini ləğv edə və ya dəyişdirə bilməyəcəyimizə diqqət yetirin."
+        },
+        "5": {
+            "title": "Geri Ödəmə və Dəyişdirmələr",
+            "message": "GERİ QAYTARMA SİYASƏTİNİZ NƏDİR? alışınızdan məmnun qalmağınızı istəyirik. Hər hansı bir səbəbdən narazı qalırsınızsa, məhsulu tam olaraq geri qaytarmaq üçün 30 gününüz var. Geri ödəməniz ilkin ödəniş metodundan istifadə etməklə həyata keçiriləcəkdir. Paketinizi aldıqdan sonra 5 iş günü ərzində malların geri qaytarılmasını və mübadiləsini həyata keçirməyə çalışırıq, lakin məşğulluq dövründə bu müddət dəyişə bilər. Zəhmət olmasa poçt operatorunuzdan ödəniş təsdiqini aldığınızdan əmin olun və geri qaytarılana qədər saxlayın. Geri qaytarma və ya mübadilə işləndikdən sonra bir e-poçt alacaqsınız. Ödənildikdən sonra hesabınıza geri qaytarmaq 10 iş günü çəkə bilər.Geri qaytarılan mallar orijinal vəziyyətdə və mümkünsə qablaşdırmada olmalıdır. Bəzi məhsullar geri qaytarılmır-daha çox məlumatı bu səhifədə aşağıda tapa bilərsiniz. Mübadilə yalnız eyni pul dəyəri olan mallar üçün edilə bilər."
+        },
+        "6": {
+            "title": "Promo Kodlar və Hədiyyə Kartları",
+            "message": "HƏDİYYƏ KARTLARI SATIRSINIZ? Hal-hazırda hədiyyə kartları satmırıq, lakin gələcəkdə bunun üzərində işləyirik. Sihirbazlıq dünyasında doğum günü endirim KODUM işləmir, əgər sehrbazlıq dünyasında doğum günü endiriminiz ödəmə zamanı tətbiq edilmirsə, aşağıdakı məlumatları yoxlayın: səbətinizin ümumi məbləği tətbiq oluna biləcəyi minimum tələb olunan xərclərə uyğundur - endirimli e - poçtun göndərildiyi sehrbazlıq dünyası hesabına daxil olmusunuz-etibarlı endirim kodunuz var. veb saytımızdakı hesabınıza verilən ünvan."
+        },
+        "7": {
+            "title": "Məhsullar",
+            "message": "Ölçü bələdçinizi və qulluq təlimatlarınızı harada tapa bilərəm? Ölçü təlimatları məhsullarımızın əksər səhifələrində mövcuddur; ölçü təlimatını yoxlamaq üçün hər səhifədəki məhsul şəkilləri arasındakı son görüntüyə vurun. Hər hansı bir paltar yuymazdan əvvəl qulluq etiketini və yuma təlimatlarını yoxlamağı da tövsiyə edirik.Xahiş edirəm unutmayın ki, şəxsi seçimlərimizə görə ən uyğun geyim ölçülərini tövsiyə edə bilmərik. DİGƏR PƏRAKƏNDƏ SATICILARA TOPLU ALIŞ TƏKLİF EDİRSİNİZ? Məhsullarımız birbaşa ictimaiyyətə təklif olunur və bütün alıcılara orijinal məhsullar aldıqlarına əmin olmaq üçün onlayn mağazamızda alış-veriş etmələrini tövsiyə edirik. Biz topdan satış həyata keçirmirik. İstənilən vaxt sifarişləri ləğv etmək hüququnu özümüzdə saxlayırıq."
+        },
+        "8": {
+            "title": "Öz Trunkunuzu Yaradın",
+            "message": "ÖZ səbətinizi NECƏ YARATMAQ OLAR? Şəxsi hədiyyə sandığınızı yaratmaq üçün 'öz sandığınızı Yarat' ı seçib sandığınızı yaratmağa başlaya bilərsiniz. Sinənizi baş hərflərinizlə bəzəyin və 'öz sinənizi yaradın' səhifələrində seçdiyiniz əşyaları əlavə edin. 'Öz baqaj endiriminizi yaradın' proqramı necə işləyir? Böyük Britaniyadan olan müştərilər: siz baqaj sifarişinin fərdi məbləğinə endirim əldə edəcəksiniz; 100 dollar xərcləyin və baqaj sifarişinizə 10% endirim əldə edin. 150 funt sterlinq xərcləyin və baqaj sifarişinizdən 15% endirim əldə edin. 200 funt sterlinq xərcləyin və İngiltərədə yaşamayan müştərilər üçün sifarişdə 20% endirim əldə edin. Öz baqajınızı yaratarkən endirim hədləriniz yerli valyutanızda göstəriləcəkdir."
+        }
+    },
+    "MyAccount":{
+        "0":"Zəhmət olmasa, e-poçtunuzu və şifrənizi daxil edin.",
+        "1":"Yanlış e-poçt və ya şifrə.",
+        "2":"Admin",
+        "3":"Admin hesabı",
+        "4":"E-mail",
+        "5":"Şifrə",
+        "6":"Giriş"
+    }
+}

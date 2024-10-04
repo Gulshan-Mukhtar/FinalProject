@@ -1,0 +1,169 @@
+
+.cardSlider {
+
+    height: auto;
+
+
+    .custom-card{
+        width: 100%;
+        background-color: transparent ;
+        color: #ccc;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+
+    }
+
+
+    .arrow-box {
+        width: 95%;
+        height: 2px;
+        background-image: url('../../../img/white-line.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    font-family: "Crimson Text",
+    serif;
+    color: #FFF;
+
+    h4 {
+        font-size: 40px;
+        transform: translateY(-20px);
+    }
+
+
+    img {
+        width: 250px;
+        height: 250px;
+    }
+
+
+
+    .btn-controls {
+        position: relative;
+        width: 100%;
+        text-align: center;
+    }
+
+    .prev-button,
+    .next-button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-800%);
+        background: linear-gradient(to right, #ffd277, #77530a, #77530a, #ffd277, #77530a);
+        background-size: 200% auto;
+        color: #ffd277;
+        background: transparent;
+        border: 1px solid #ffd277;
+        padding: 5px 10px;
+        cursor: pointer;
+        transition: background-position 0.5s;
+
+        i {
+            font-size: 20px;
+        }
+    }
+
+    .prev-button:hover,
+    .next-button:hover {
+        background-position: right center;
+    }
+
+    .prev-button {
+        left: -50px;
+    }
+
+    .next-button {
+        right: -50px;
+    }
+
+
+}
+
+.custom-card {
+    width: 200px;
+    position: relative;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+.slickSlider {
+    background-color: #030312;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .add-gold {
+
+        font-family: "Crimson Text", serif;
+        width: 140px;
+        height: 40px;
+        border: none;
+        border-radius: 10px;
+
+        background: linear-gradient(to right,
+                #77530a,
+                #ffd277,
+                #77530a,
+                #77530a,
+                #ffd277,
+                #77530a);
+
+        background-size: 250%;
+        background-position: left;
+        color: #ffd277;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition-duration: 1s;
+        overflow: hidden;
+        transform: scale(1.25);
+
+
+    }
+
+    .add-gold::before {
+        position: absolute;
+        content: "Add To Cart";
+        color: #ffd277;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 97%;
+        height: 90%;
+        border-radius: 8px;
+        transition-duration: 1s;
+        background-color: rgba(0, 0, 0, 0.842);
+        background-size: 200%;
+        color: #ffd277;
+
+    }
+
+    .add-gold:hover {
+        background-position: right;
+        transition-duration: 1s;
+    }
+
+}
+
+
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateX(300px);
+}
+
+.slickSlider.light{
+    background-color: #4A2B10;
+}
+
+
+

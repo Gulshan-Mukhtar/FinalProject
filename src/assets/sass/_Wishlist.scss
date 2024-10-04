@@ -1,0 +1,51 @@
+.wish-back {
+    background-color: #030312;
+    color: #fff;
+    font-family: "Crimson Text", serif;
+    padding: 40px;
+
+}
+
+.wishlist-box {
+
+    width: 100%;
+    height: 50vh;
+    background-image: url('../../../img/wishlist.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    border: 5px solid;
+    border-image: linear-gradient(to right,
+            #77530a,
+            #bb9341,
+            #77530a,
+            #77530a,
+            #bb9341,
+            #77530a) 1 !important;
+    padding: 20px;
+    font-size: 50px;
+
+}
+
+.wish-back.light {
+    background-color: #4A2B10;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .wishlist-box {
+        font-size: 35px;
+
+        height: auto !important;
+        padding: 10px;
+
+        p {
+            font-size: 32px;
+        }
+    }
+}

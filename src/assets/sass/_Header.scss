@@ -1,0 +1,146 @@
+header {
+    width: 100%;
+    height: 6vh;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #030312;
+
+
+    a {
+        font-family: "Crimson Text", serif;
+    }
+
+    i {
+        background: linear-gradient(to right, #77530a, #bb9341);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    font-size: 20px;    }
+
+
+    .lang-select {
+        background-color: #030312;
+        color: #ffffff;
+        outline: none;
+        cursor: pointer;
+    }
+
+
+    .end-logo-box {
+        width: 45%;
+        height: 3vh;
+        float: inline-end;
+        display: flex;
+        justify-content: space-around;
+
+        .img-box {
+            width: 60%;
+            height: 6vh;
+            background-image: url(https://harrypottershop.co.uk/cdn/shop/t/22/assets/hp_fan_club_logo_horizontal_dark.svg?v=31198702805312198181678387973);
+            background-repeat: no-repeat;
+        }
+
+        a {
+            color: #fff;
+            font-size: 18px;
+        }
+
+        .dark-light {
+            width: 30px;
+            height: 3vh;
+            background-color: transparent;
+            border: none;
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-left: 10px;
+            
+        }
+
+    }
+}
+
+header.light {
+    width: 100%;
+    height: 6vh;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4A2B10;
+
+    i{
+        color: #fff !important;
+    }
+
+    .lang-select {
+        background-color: #4A2B10;
+        color: #ffffff;
+    }
+
+    a {
+        font-family: "Crimson Text", serif;
+    }
+
+    .end-logo-box {
+        width: 45%;
+        height: 3vh;
+        float: inline-end;
+        display: flex;
+        justify-content: space-around;
+
+        .img-box {
+            width: 60%;
+            height: 6vh;
+            background-image: url(https://harrypottershop.co.uk/cdn/shop/t/22/assets/hp_fan_club_logo_horizontal_dark.svg?v=31198702805312198181678387973);
+            background-repeat: no-repeat;
+        }
+
+        a {
+            color: #ffffff;
+            font-size: 18px;
+        }
+
+        .dark-light {
+            width: 30px;
+            height: 3vh;
+            background-color: transparent;
+            border: none;
+            background-size: contain;
+            background-repeat: no-repeat;
+            margin-left: 10px;
+
+            i {
+                color: yellow;
+            }
+        }
+
+        button {
+            margin-left: 10px;
+            border: none;
+            border-radius: 3px;
+            background-color: #FFD700;
+            font-family: "Crimson Text", serif;
+        }
+    }
+}
+
+
+@media (max-width: 1407px) {
+
+    .img-box {
+        display: none;
+    }
+}
+
+@media (max-width:770px) {
+
+    .end-logo-box {
+        transform: translate(-100px) !important;
+    }
+
+    .dark-light {
+        width: 30px !important;
+        height: 3vh !important;
+    }
+}

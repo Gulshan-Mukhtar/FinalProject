@@ -1,0 +1,45 @@
+.ed-box {
+    width: 100%;
+    height: auto;
+    background-image: url('../../../img/wishlist.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    border: 5px solid white;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.submit-btn {
+    background: linear-gradient(to right, #77530a, #bb9341, #77530a, #77530a, #bb9341, #77530a);
+    border-radius: 5px;
+    width: 80px;
+    color: #fff;
+}
+
+.edit-dark-back {
+    height: 100vh;
+}
+
+.edit-dark-back.light {
+    height: 100vh;
+}
+
+@media(max-width: 768px) {
+    .ed-box {
+        height: 60vh; 
+    }
+    
+    .edit-dark-back {
+        height: auto; 
+    }
+
+    .edit-dark-back.light {
+        height: auto;
+    }
+}

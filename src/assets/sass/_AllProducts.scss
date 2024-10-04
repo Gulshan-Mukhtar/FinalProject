@@ -1,0 +1,130 @@
+.allproducts-main {
+    width: 100%;
+    height: auto;
+    background-color: #030312;
+    color: #fff;
+    font-family: "Crimson Text", serif;
+
+
+    a {
+        color: #fff;
+    }
+
+    .all-box {
+        width: 100%;
+        height: 50vh;
+        background-image: url('../../../img/allproduct.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+        border: 5px solid;
+        border-image: linear-gradient(to right,
+                #77530a,
+                #bb9341,
+                #77530a,
+                #77530a,
+                #bb9341,
+                #77530a) 1 !important;
+        font-size: 50px;
+        padding: 20px;
+
+
+
+        p {
+            color: white;
+            font-size: 50px;
+        }
+
+    }
+
+    .list-group-item {
+        background-color: transparent !important;
+        border: none;
+
+    }
+
+    .list-group {
+        border: 5px solid;
+        border-image: linear-gradient(to right,
+                #77530a,
+                #bb9341,
+                #77530a,
+                #77530a,
+                #bb9341,
+                #77530a) 1;
+
+        border-radius: 5px;
+        overflow: hidden;
+    }
+
+    .list-group-item:after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(to right,
+                #77530a,
+                #bb9341,
+                #77530a,
+                #77530a,
+                #bb9341,
+                #77530a);
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    li {
+        list-style: none;
+        line-height: 50px;
+        cursor: pointer;
+        color: #fff;
+    }
+
+    li:hover {
+        color: #FFD700;
+        text-shadow: 0 0 10px #FFD700;
+    }
+
+}
+
+.allproducts-main.light {
+
+    background-color: #4A2B10;
+    color: #fff;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .all-box {
+        font-size: 35px;
+
+        height: auto !important;
+        padding: 10px;
+
+        p {
+            font-size: 32px;
+        }
+    }
+
+    .list-group {
+        width: 300px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 500px) {
+    .all-box {
+        padding: 15px;
+        height: auto !important;
+    }
+
+
+}

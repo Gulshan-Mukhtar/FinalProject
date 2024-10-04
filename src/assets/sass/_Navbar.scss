@@ -1,0 +1,126 @@
+.section-second {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #030312;
+    font-family: "Crimson Text", serif;
+}
+
+.arrow-box,
+.arrow-box-2 {
+    width: 80%;
+    height: 5vh;
+    background-image: url(../../../img/divider.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.arrow-box-2 {
+    transform: scaleX(-1);
+}
+
+.menu-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 18px; 
+    transition: all 0.3s ease;
+}
+
+.menu-link:hover {
+    background: linear-gradient(to right, #77530a, #bb9341, #77530a); 
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;  }
+
+.menu-icon-box {
+    width: 15px;
+    height: 15px;
+    background-image: url(../../../img/dot.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 10px;
+}
+
+/* Light tema*/
+.section-second.light {
+    background-color: #4A2B10;
+}
+
+.section-second.light .menu-link {
+    color: #fff;
+}
+
+.section-second.light .menu-link:hover {
+    color: #ffd700;
+}
+
+.section-second.light .menu-icon-box {
+    background-image: url(../../../img/dot.svg);
+}
+
+/* Mobil */
+@media (max-width: 768px) {
+    .section-second {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .arrow-box,
+    .arrow-box-2 {
+        width: 50%;
+        height: auto;
+    }
+
+    .menu-box {
+        flex-direction: column;
+    }
+
+    .menu-link {
+        font-size: 30px; 
+        padding: 8px 10px;
+    }
+
+    .menu-icon-box {
+        width: 12px;
+        height: 12px;
+        margin: 5px;
+    }
+
+    span {
+        font-size: 18px; 
+    }
+
+    /* Light tema */
+    .section-second.light .menu-link {
+        font-size: 30px; 
+    }
+
+    .section-second.light .menu-icon-box {
+        width: 12px;
+        height: 12px;
+        margin: 5px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .menu-link {
+        font-size: 22px; 
+    }
+
+    span {
+        font-size: 22px; 
+    }
+}
