@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 import { useCart } from 'react-use-cart';
 import { ModeContext } from '../context/ModeContext';
 import Aos from 'aos';
-import { useSelector } from 'react-redux';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import TopPics from '../components/TopPics';
@@ -53,7 +52,6 @@ const CheckOut = () => {
 
   const [mode] = useContext(ModeContext);
   const { t } = useTranslation();
-  const data = useSelector(state => state);
 
   return (
     <section className={`payment-section ${mode}`}>

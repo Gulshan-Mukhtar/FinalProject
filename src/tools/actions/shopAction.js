@@ -36,7 +36,7 @@ export const addProductFromDatabase = async (alldata) => {
 }
 
 export const deleteProductFromDatabase = async(id)=>{
-        const {data,error} = await supabase.from('products').delete().eq('id',id);
+        const {error} = await supabase.from('products').delete().eq('id',id);
         if (error) {
             console.log(error);
         }else{

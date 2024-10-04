@@ -1,8 +1,5 @@
 import React, { useState } from 'react';
-import { useDispatch } from 'react-redux';
-import { addProduct, editProduct } from '../tools/actions/shopAction';
 import { toast } from 'react-toastify';
-import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import '../i18n/i18next';
 

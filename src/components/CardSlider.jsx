@@ -1,4 +1,4 @@
-import React, { useState, useRef, useContext } from 'react';
+import React, { useRef, useContext, useCallback } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -10,24 +10,7 @@ import '../i18n/i18next';
 
 const SlickSlider = () => {
     const sliderRef = useRef(null);
-    const [currentSlide, setCurrentSlide] = useState(0);
-
-    // Reduxdan stateni aliriq
     const data = useSelector(state => state);
-
-    // const goToNextSlide = () => {
-    //     if (sliderRef.current && currentSlide < data.length - 1) {
-    //         setCurrentSlide(currentSlide + 1);
-    //         sliderRef.current.slickNext();
-    //     }
-    // };
-
-    // const goToPrevSlide = () => {
-    //     if (sliderRef.current && currentSlide > 0) {
-    //         setCurrentSlide(currentSlide - 1);
-    //         sliderRef.current.slickPrev();
-    //     }
-    // };
 
     const settings = {
         dots: false,
@@ -37,8 +20,7 @@ const SlickSlider = () => {
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
-        speed: 5000,
-        autoplaySpeed: 1000,
+        autoplaySpeed: 2000,
         cssEase: "linear",
         responsive: [
             {
@@ -71,17 +53,25 @@ const SlickSlider = () => {
     const [mode] = useContext(ModeContext);
     const { t } = useTranslation();
 
-
+    const nextSlide = useCallback(() => {
+        if (sliderRef.current) {
+            sliderRef.current.slickNext(); 
+        }
+    }, []);
 
     return (
-
-
         <div className={`slickSlider ${mode}`}>
             <div className="container">
                 <div className="row cardSlider">
-                    <div className="col-lg-5 my-5"><div className="arrow-box"></div></div>
-                    <div className="col-lg-2 my-5"><h4 className='text-center'>{t('CardSlider.0')}</h4></div>
-                    <div className="col-lg-5 my-5"><div className="arrow-box"></div></div>
+                    <div className="col-lg-5 my-5">
+                        <button onClick={nextSlide} className="arrow-box">Next</button>
+                    </div>
+                    <div className="col-lg-2 my-5">
+                        <h4 className='text-center'>{t('CardSlider.0')}</h4>
+                    </div>
+                    <div className="col-lg-5 my-5">
+                        <div className="arrow-box"></div>
+                    </div>
                 </div>
 
                 <div className="cardSlider">

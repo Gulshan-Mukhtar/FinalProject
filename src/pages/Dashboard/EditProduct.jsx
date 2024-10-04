@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import ProductForm from '../../components/ProductFrom';
-import { useDispatch, useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
 import { useNavigate, useParams } from 'react-router-dom';
 import slugify from 'slugify';
 import { toast } from 'react-toastify';
@@ -14,9 +14,7 @@ const EditProduct = () => {
     const products = useSelector((state) => state);
     const editData = products.find((p) => slugify(p.title) === slug);
 
-    const dispatch = useDispatch();
     const navigate = useNavigate();
-
     const [mode] = useContext(ModeContext);
     const { t } = useTranslation();
 
@@ -29,7 +27,7 @@ const EditProduct = () => {
             }, 1500);
         } catch (error) {
             console.error("Update error:", error);
-            toast.error(t("EditProduct.Error")); // Xeta mesajı
+            toast.error(t("EditProduct.Error")); 
         }
     };
 
@@ -40,7 +38,7 @@ const EditProduct = () => {
                     <p data-aos="fade-down">{t("EditProduct.3")}</p>
                 </div>
 
-                <h1 className='text-center my-5'></h1>
+                <h1 className='text-center my-5'>{t("EditProduct.0")}</h1> 
 
                 {editData ? (
                     <ProductForm 

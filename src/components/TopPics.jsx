@@ -1,4 +1,4 @@
-import React, { useState, useRef, useContext } from 'react';
+import React, { useRef, useContext } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -10,36 +10,19 @@ import '../i18n/i18next';
 
 const TopPics = () => {
     const sliderRef = useRef(null);
-    const [currentSlide, setCurrentSlide] = useState(0);
 
     const data = useSelector(state => state);
-
     const displayedProducts = data.slice(0, 8);
-
-    // const goToNextSlide = () => {
-    //     if (sliderRef.current && currentSlide < displayedProducts.length - 1) {
-    //         setCurrentSlide(currentSlide + 1);
-    //         sliderRef.current.slickNext();
-    //     }
-    // };
-
-    // const goToPrevSlide = () => {
-    //     if (sliderRef.current && currentSlide > 0) {
-    //         setCurrentSlide(currentSlide - 1);
-    //         sliderRef.current.slickPrev();
-    //     }
-    // };
 
     const settings = {
         dots: false,
         arrows: true,
         infinite: true,
-        speed: 500,
+        speed: 500, 
         slidesToShow: 4,
         slidesToScroll: 1,
         autoplay: true,
-        speed: 5000,
-        autoplaySpeed: 1000,
+        autoplaySpeed: 1000, 
         cssEase: "linear",
         responsive: [
             {
@@ -70,8 +53,7 @@ const TopPics = () => {
     };
 
     const [mode] = useContext(ModeContext);
-    const {t}=useTranslation();
-
+    const { t } = useTranslation();
 
     return (
         <div className={`slickSlider ${mode}`}>
@@ -107,3 +89,4 @@ const TopPics = () => {
 }
 
 export default TopPics;
+

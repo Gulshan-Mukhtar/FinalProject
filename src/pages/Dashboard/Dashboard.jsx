@@ -1,5 +1,5 @@
 import React, { useContext, useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import {  useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import slugify from 'slugify';
 import { supabase } from '../../supabase/supabaseClient';
@@ -11,7 +11,6 @@ import '../../i18n/i18next';
 
 const Dashboard = () => {
     const products = useSelector((state) => state);
-    const dispatch = useDispatch();
 
     const [mode] = useContext(ModeContext);
     const {t}=useTranslation();
@@ -63,7 +62,7 @@ const Dashboard = () => {
                                         </td>
                                         <td>
                                             <button className="btn btn-outline-dark btn-dash" onClick={async () => {
-                                                const { data, error } = await supabase.from('products').delete().eq('id', item.id);
+                                                const {  error } = await supabase.from('products').delete().eq('id', item.id);
 
                                                 if (error) {
                                                     console.log(error);

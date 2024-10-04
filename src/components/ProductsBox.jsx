@@ -25,7 +25,9 @@ const ProductsBox = () => {
                             <div className="card-container">
                                 <div className="card">
                                     <img src={product.image} className="card-img-top" alt={t(`ProductsBox.product${index + 1}.0`)} />
-                                    <a href="#" className='text glow-on-hover '><p>{t(`ProductsBox.product${index + 1}.0`)}</p></a> 
+                                    <a href={`/products/${product.id}`} className='text glow-on-hover'>
+                                        <p>{t(`ProductsBox.product${index + 1}.0`)}</p>
+                                    </a> 
                                 </div>
                             </div>
                         </div>
@@ -37,6 +39,7 @@ const ProductsBox = () => {
 };
 
 export default ProductsBox;
+
 
 
 
