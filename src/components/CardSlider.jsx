@@ -53,18 +53,18 @@ const SlickSlider = () => {
     const [mode] = useContext(ModeContext);
     const { t } = useTranslation();
 
-    const nextSlide = useCallback(() => {
-        if (sliderRef.current) {
-            sliderRef.current.slickNext(); 
-        }
-    }, []);
+    // const nextSlide = useCallback(() => {
+    //     if (sliderRef.current) {
+    //         sliderRef.current.slickNext(); 
+    //     }
+    // }, []);
 
     return (
         <div className={`slickSlider ${mode}`}>
             <div className="container">
                 <div className="row cardSlider">
                     <div className="col-lg-5 my-5">
-                        <button onClick={nextSlide} className="arrow-box">Next</button>
+                        <div  className="arrow-box"></div>
                     </div>
                     <div className="col-lg-2 my-5">
                         <h4 className='text-center'>{t('CardSlider.0')}</h4>
