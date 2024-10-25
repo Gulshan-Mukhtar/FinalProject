@@ -17,7 +17,7 @@ const AddProduct = () => {
                     <p data-aos="fade-down">{t("AddProduct.0")}</p>
                 </div>
 
-                <h1 className='text-center my-5'>{t("AddProduct.2")}</h1> {/* Başlık içeriği eklendi */}
+                <h1 className='text-center my-5'>{t("AddProduct.2")}</h1> 
 
                 <ProductForm onFormSubmit={async (fd) => {
                     const { error } = await supabase.from('products').insert(fd);
